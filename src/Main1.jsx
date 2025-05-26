@@ -6,7 +6,7 @@ const Main1 = () => {
     <main className=' sm:flex sm:items-center sm:justify-center sm:flex-row   sm:w-full sm:py-20 w-96 h- flex flex-col pb-80 gap-90  sm:gap-15 md:w-5xl xl:w-12/12 xl:gap-28 md:mt-15 '>
         <div className=" leading-18   sm:w-100 h-10 text-center pt-15 px-2 md:pb-60 ">
             <h4 className="text-2xl sm:text-5">Starting at only $0.5</h4>
-            <h1 class="font-bold font-mono text-2xl"><span class="text-orange-600  text-3xl " >SUMMER </span>SPECIAL COLLECTION</h1>
+            <h1 class="font-bold font-mono text-2xl text-blue-500"><span class="text-orange-600  text-3xl " >SUMMER </span >SPECIAL COLLECTION</h1>
             <p className='text-2xl'>Brand day flat 20% off and free shipping</p>
 
             <div className=' flex items-center gap-7 mt-10 sm:gap-10 sm:pl-5 '>

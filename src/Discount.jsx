@@ -17,7 +17,7 @@ const Discount = () => {
 
           </div>
         <div className='flex items-center flex-col gap-15 md:flex-row md:justify-center md:mt-10 md:gap-10 md:px-8'>
-    <input type="email" placeholder='Email Address' className='w-86 h-13 mt-7' />
+    <input type="email" placeholder='Email Address' className='w-80 h-13 mt-7 bg-gradient-to-br from-orange-600/80 to-yellow-500/80 placeholder:opacity-85 outline-none placeholder:pl-10 rounded-lg' />
    <button type="button" class="text-white bg-gradient-to-br from-orange-600 to-yellow-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-10 py-3 text-center -mt-6  md:mt-8 ">SubScribe</button>
         </div>
         <p className='px-5 text-xl text-center mt-10 md:px-8'>Sign up for our newsletter below to receive the latest discount codes for Yoursurprise</p>

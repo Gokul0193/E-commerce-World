@@ -10,7 +10,7 @@ const ProductCard = (props) => {
             src={props.imgurl}
             alt="product image"
           />
-          <span className="absolute top-0 left-0 m-2 rounded-full bg-gradient-to-br from-orange-600 to-yellow-500  px-2 text-center text-sm font-medium text-white">39% OFF</span>
+          <span className="absolute top-0 left-0 m-2 rounded-full bg-gradient-to-br from-orange-600 to-yellow-500  px-2 text-center text-sm font-medium text-white">{props.off} OFF</span>
         </a>
         <div className="mt-4 px-5 pb-5">
           <a href="#">
@@ -18,8 +18,8 @@ const ProductCard = (props) => {
           </a>
           <div className="mt-2 mb-5 flex items-center justify-between md:gap-3">
             <p>
-              <span className="text-3xl font-bold text-slate-900">$449</span>
-              <span className="text-sm text-slate-900 line-through">$699</span>
+              <span className="text-3xl font-bold text-slate-900">${props.price}</span>
+              <span className="text-sm text-slate-900 line-through">${props.old}</span>
             </p>
             <div className="flex items-center md:w-30">
               {[...Array(5)].map((_, i) => (

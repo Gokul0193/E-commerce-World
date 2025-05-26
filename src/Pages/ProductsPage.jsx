@@ -12,6 +12,9 @@ const Products = () => {
             imgurl={item.imgurl}
             name={item.name}
             rating={item.rating}
+            price={item.price}
+            off={item.off}
+            old={item.oldPrice}
           />
         ))
       }

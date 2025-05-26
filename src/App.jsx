@@ -5,8 +5,8 @@ import {
   Routes,Route
 } from "react-router";
 import Navbar from './Navbar'
-import Home from './Pages/Home';
-import Products from './Pages/Products';
+import HomePage from './Pages/HomePage';
+import ProductsPage from './Pages/ProductsPage';
 const App = () => {
   
 
@@ -15,8 +15,8 @@ const App = () => {
       
         <Navbar/>
             <Routes>
-                <Route path='/' element={<Home/>}/>
-                 <Route path='/products' element={<Products/>}/>
+                <Route path='/' element={<HomePage/>}/>
+                 <Route path='/products' element={<ProductsPage/>}/>
             </Routes>
          
 

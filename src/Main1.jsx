@@ -10,7 +10,7 @@ const Main1 = () => {
             <p className='text-2xl'>Brand day flat 20% off and free shipping</p>
 
             <div className=' flex items-center gap-7 mt-10 sm:gap-10 sm:pl-5 '>
-                <button type="button" class="text-white bg-gradient-to-br from-blue-600 to-blue-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-orange-400 font-medium rounded-lg text-sm px-10 py-4 text-center me-2  cursor-pointer  sm:px-5 sm:py-3 xl:px-9 xl:py-2"><Link to='/products'>Shop Now</Link></button>
+                <button type="button" class="text-black  bg-gradient-to-br from-blue-600 to-blue-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-orange-400 font-medium rounded-lg text-sm px-10 py-4 text-center me-2  cursor-pointer  sm:px-5 sm:py-3 xl:px-9 xl:py-2"><Link to='/products'>Shop Now</Link></button>
            
               <label className='flex items-center justify-between xl:w-50  '> <FaPhone className='w-6 h-6 mr-4'/> +(00)-000-000-0000</label> 
 

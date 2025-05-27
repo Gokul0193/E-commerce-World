@@ -89,7 +89,7 @@ const Navbar = () => {
           }>
               <Link
                 to={btn.To}
-                className={`block py-2 px-3 text-white   rounded md:bg-transparent hover:text-blue-700 dark:text-white ${isActive===btn.feature ? 'bg-blue-700':''}`}  
+                className={`block py-2 px-3 text-white   rounded md:bg-transparent hover:text-blue-700 dark:text-white ${isActive===btn.feature ? 'bg-blue-700 text-white':''}`}  
               >
                 {btn.feature}
               </Link>

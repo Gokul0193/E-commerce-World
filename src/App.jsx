@@ -11,7 +11,7 @@ const App = () => {
   
 
   return (
-    <div >
+    <div className=' w-96 md:w-5xl xl:w-12/12'>
       
         <Navbar/>
             <Routes>

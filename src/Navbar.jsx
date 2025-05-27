@@ -71,7 +71,7 @@ const Navbar = () => {
           </svg>
         </button>
 
-        {/* Nav menu */}
+       
         <div
           className={`${
             isOpen ? 'block' : 'hidden'
